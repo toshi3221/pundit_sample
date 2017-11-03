@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
 
   # admin
   factory :admin_ability, class: Ability do

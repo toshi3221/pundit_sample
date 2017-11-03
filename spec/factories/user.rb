@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :administrator, class: User do
     sequence(:name) { |i| "#{Forgery(:internet).user_name}#{i}" }
     role_id  { create(:admin_role).id }
