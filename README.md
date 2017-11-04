@@ -2,8 +2,8 @@
 
 # 環境
 
-* Ruby 2.1.2
-* Rails 4.1.1
+* Ruby 2.4.1
+* Rails 5.1.4
 
 ## Requirements
 
@@ -12,8 +12,6 @@
 # Setup
 
 ```sh
-$ git clone https://github.com/onigra/pundit_sample.git
-$ cd pundit_sample
 $ bundle install
 
 $ bundle exec rake db:create
