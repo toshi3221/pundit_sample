@@ -8,12 +8,13 @@
 ## Requirements
 
 * MySQL
+* docker-compose
 
 # Setup
 
 ```sh
+$ docker-compose up -d
 $ bundle install
-
 $ bundle exec rake db:create
 $ bundle exec rake db:migrate
 $ bundle exec rake db:seed_fu
